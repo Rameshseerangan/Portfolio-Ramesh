@@ -160,14 +160,15 @@ const Navbar = () => {
         {isOpen && (
           <MobileMenu isOpen={isOpen}>
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#About">
+              Home
+            </NavLink>
+            <NavLink onClick={() => setIsOpen(!isOpen)} href="#About">
               About
             </NavLink>
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#Skills">
               Skills
             </NavLink>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Experience">
-              Experience
-            </NavLink>
+            
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#Projects">
               Projects
             </NavLink>
