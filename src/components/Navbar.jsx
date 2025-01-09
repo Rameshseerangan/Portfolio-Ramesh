@@ -161,7 +161,7 @@ const Navbar = () => {
           <MobileMenu isOpen={isOpen}>
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#About">
               Home
-            </NavLink>
+            </NavLink> 
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#About">
               About
             </NavLink>
